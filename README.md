@@ -1,1 +1,1 @@
-# DHIS2---OpenCPU-App
+# DHIS2-OpenCPU-App
