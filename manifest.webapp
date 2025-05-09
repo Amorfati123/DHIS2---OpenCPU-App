@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "name": "OpenCPU",
+  "description": "An app to interact with OpenCPU for dataset information",
+  "launch_path": "index.html",
+  "icons": {
+    "48": "icon.png"
+  },
+  "developer": {
+    "name": "Your Organization",
+    "url": "http://www.your-organization.com"
+  },
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "http://149.165.238.109:8081/api/*"
+    }
+  }
+}

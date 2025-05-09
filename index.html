@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OpenCPU DHIS2 App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>OpenCPU DHIS2 App</h1>
+  <form id="request-form">
+    <label for="method-select">Method:</label>
+    <select id="method-select">
+      <option value="GET">GET</option>
+      <option value="POST">POST</option>
+    </select>
+    <label for="endpoint-input">Endpoint:</label>
+    <input type="text" id="endpoint-input" placeholder="/library/stats/R/rnorm/json?n=10&mean=5">
+    <input type="submit" value="Send Request">
+  </form>
+  <div id="response-container">
+    <h2>Response:</h2>
+    <pre id="response-output"></pre>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
